@@ -1,0 +1,611 @@
+[10Mar2024 21:28:35.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.8, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[10Mar2024 21:28:35.932] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[10Mar2024 21:28:37.849] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[10Mar2024 21:28:37.850] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/codespaces-jupyter/Minecraft-server/mods/OptiFine_1.19.2_HD_U_H9.jar%23134!/
+[10Mar2024 21:28:37.857] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/codespaces-jupyter/Minecraft-server/mods/OptiFine_1.19.2_HD_U_H9.jar
+[10Mar2024 21:28:37.859] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[10Mar2024 21:28:37.956] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[10Mar2024 21:28:37.967] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[10Mar2024 21:28:38.416] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.8/fmlcore-1.19.2-43.3.8.jar is missing mods.toml file
+[10Mar2024 21:28:38.427] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.8/javafmllanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[10Mar2024 21:28:38.429] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.8/lowcodelanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[10Mar2024 21:28:38.430] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.8/mclanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[10Mar2024 21:28:38.883] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/codespaces-jupyter/Minecraft-server/mods/curios-forge-1.19.2-5.1.5.0.jar
+[10Mar2024 21:28:38.883] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[10Mar2024 21:28:39.571] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[10Mar2024 21:28:39.583] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 383
+[10Mar2024 21:28:40.351] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[10Mar2024 21:28:41.239] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Mar2024 21:28:41.259] [main/ERROR] [mixin/]: Mixin config mixins.terrestria-common.json does not specify "minVersion" property
+[10Mar2024 21:28:41.312] [main/ERROR] [mixin/]: Mixin config mixins.terrestria-client.json does not specify "minVersion" property
+[10Mar2024 21:28:41.318] [main/ERROR] [mixin/]: Mixin config mixins.terrestria-worldgen.json does not specify "minVersion" property
+[10Mar2024 21:28:41.393] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[10Mar2024 21:28:41.395] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[10Mar2024 21:28:41.466] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Mar2024 21:28:41.469] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Mar2024 21:28:42.525] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[10Mar2024 21:28:42.526] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[10Mar2024 21:28:48.666] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[10Mar2024 21:28:55.030] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.12...
+[10Mar2024 21:28:55.051] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[10Mar2024 21:28:55.307] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.8, for MC 1.19.2 with MCP 20220805.130853
+[10Mar2024 21:28:55.307] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.8 Initialized
+[10Mar2024 21:28:55.404] [modloading-worker-0/INFO] [terrestria/]: Enabling Terrestria's TerraBlender worldgen module.
+[10Mar2024 21:28:58.736] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading config
+[10Mar2024 21:28:58.736] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[10Mar2024 21:28:58.783] [modloading-worker-0/INFO] [gobber2/]: Gobber common setup complete
+[10Mar2024 21:28:58.788] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[10Mar2024 21:28:59.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
+[10Mar2024 21:28:59.599] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[10Mar2024 21:28:59.600] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[10Mar2024 21:28:59.601] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[10Mar2024 21:28:59.602] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[10Mar2024 21:28:59.602] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[10Mar2024 21:28:59.603] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[10Mar2024 21:28:59.604] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[10Mar2024 21:28:59.622] [main/INFO] [journeymap/]: Initializing Packet Registries
+[10Mar2024 21:28:59.676] [main/INFO] [terrablender/]: Registered region terrestria:overworld to index 4 for type OVERWORLD
+[10Mar2024 21:28:59.677] [main/INFO] [terrablender/]: Registered region terrestria:overworld_rare to index 5 for type OVERWORLD
+[10Mar2024 21:28:59.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.19.2-1.1.0-forge Target: 1.19.2-1.2.0-forge
+[10Mar2024 21:28:59.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://maxhenkel.de/update/sound_physics_remastered.json
+[10Mar2024 21:28:59.696] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[10Mar2024 21:28:59.702] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[10Mar2024 21:28:59.704] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[10Mar2024 21:28:59.705] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[10Mar2024 21:28:59.719] [modloading-worker-0/INFO] [gobber2/]: Gobber server setup complete
+[10Mar2024 21:28:59.731] [modloading-worker-0/INFO] [gobber2/]: Gobber IMC setup complete
+[10Mar2024 21:28:59.734] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[10Mar2024 21:28:59.751] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10Mar2024 21:28:59.781] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10Mar2024 21:28:59.793] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10Mar2024 21:28:59.796] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[10Mar2024 21:28:59.797] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[10Mar2024 21:29:00.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.19.2-1.0.18 Target: 1.19.2-1.3.0
+[10Mar2024 21:29:00.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10Mar2024 21:29:00.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.7 Target: null
+[10Mar2024 21:29:00.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
+[10Mar2024 21:29:00.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
+[10Mar2024 21:29:00.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[10Mar2024 21:29:00.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: OUTDATED Current: 4.0.1 Target: 4.0.4
+[10Mar2024 21:29:00.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Mar2024 21:29:00.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 43.3.8 Target: null
+[10Mar2024 21:29:00.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Starting version check at https://raw.githubusercontent.com/Lothrazar/SimpleTomb/trunk/1.19/update.json
+[10Mar2024 21:29:00.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simpletomb] Found status: BETA Current: 1.19-1.0.15 Target: null
+[10Mar2024 21:29:00.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[10Mar2024 21:29:01.054] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.3.8.jar%23172!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.3.8.jar%23172!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[10Mar2024 21:29:02.425] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Mar2024 21:29:04.400] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
+[10Mar2024 21:29:04.401] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
+[10Mar2024 21:29:07.470] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:cherry_grove (from mvs-4.1-1.19.2-forge.jar)] as it is missing following references: minecraft:cherry_grove (from mvs-4.1-1.19.2-forge.jar)
+[10Mar2024 21:29:08.401] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[10Mar2024 21:29:08.430] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[10Mar2024 21:29:08.485] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[10Mar2024 21:29:08.492] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[10Mar2024 21:29:08.525] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[10Mar2024 21:29:08.527] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[10Mar2024 21:29:08.528] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[10Mar2024 21:29:08.532] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[10Mar2024 21:29:08.534] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[10Mar2024 21:29:09.326] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2455 advancements
+[10Mar2024 21:29:09.335] [main/INFO] [Dungeon Crawl/]: Loading data...
+[10Mar2024 21:29:09.723] [main/INFO] [Dungeon Crawl/]: Done.
+[10Mar2024 21:29:09.734] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[10Mar2024 21:29:09.744] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_savanna, mvs:has_structure/cherry_biomes
+[10Mar2024 21:29:11.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[10Mar2024 21:29:11.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Mar2024 21:29:11.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Mar2024 21:29:11.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Mar2024 21:29:11.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Mar2024 21:29:11.556] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Mar2024 21:29:11.658] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Mar2024 21:29:11.659] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Mar2024 21:29:11.659] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Mar2024 21:29:11.826] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[10Mar2024 21:29:12.393] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[10Mar2024 21:29:12.394] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Mar2024 21:29:12.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Mar2024 21:29:17.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.686] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.693] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.701] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.703] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.728] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.823] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.835] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.868] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.871] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:17.875] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:18.208] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:18.809] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:19.780] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:19.794] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:20.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:20.946] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:21.206] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Mar2024 21:29:21.706] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[10Mar2024 21:29:22.226] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[10Mar2024 21:29:22.729] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10024 ms
+[10Mar2024 21:29:22.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.082s)! For help, type "help"
+[10Mar2024 21:29:22.776] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Mar2024 21:29:22.815] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[10Mar2024 21:29:22.816] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[10Mar2024 21:29:51.900] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Versatil_162 is 66d6ffb6-474c-4c00-89c0-682a2f022c7a
+[10Mar2024 21:29:55.752] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7782dfc5
+[10Mar2024 21:29:55.783] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Versatil_162[/[0:0:0:0:0:0:0:1%0]:38286] logged in with entity id 69 at (-2028.2485348104274, -35.0, -623.2237864467528)
+[10Mar2024 21:29:55.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 joined the game
+[10Mar2024 21:29:55.910] [Server thread/INFO] [Jade/]: Syncing config to Versatil_162 (66d6ffb6-474c-4c00-89c0-682a2f022c7a)
+[10Mar2024 21:29:58.771] [Server thread/ERROR] [net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager/]: Couldn't load structure mvs:nature/mushroom_pond/mushroom_pond_upper
+net.minecraft.ReportedException: Loading NBT data
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:466) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:26) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128930_(NbtIo.java:279) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128934_(NbtIo.java:225) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128939_(NbtIo.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230377_(StructureTemplateManager.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230372_(StructureTemplateManager.java:212) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230427_(StructureTemplateManager.java:124) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230425_(StructureTemplateManager.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230407_(StructureTemplateManager.java:92) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230359_(StructureTemplateManager.java:80) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_227299_(SinglePoolElement.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_214015_(SinglePoolElement.java:118) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.<init>(PoolElementStructurePiece.java:58) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.m_192753_(PiecesContainer.java:73) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.m_226857_(StructureStart.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188254_(ChunkSerializer.java:474) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_188230_(ChunkSerializer.java:206) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ChunkMap.m_214889_(ChunkMap.java:563) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:535) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:543) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:130) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:179) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:174) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.Level.m_46745_(Level.java:170) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.Level.m_6425_(Level.java:361) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.Entity.m_20323_(Entity.java:1123) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.Entity.m_6075_(Entity.java:442) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6075_(LivingEntity.java:324) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.Entity.m_8119_(Entity.java:417) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2252) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:243) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:447) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:264) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:248) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:143) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:880) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:806) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.IOException: Invalid tag id: 19
+	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	... 55 more
+[10Mar2024 21:29:59.896] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4129ms or 82 ticks behind
+[10Mar2024 21:32:37.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 has made the advancement [They Have a Cave Troll!]
+[10Mar2024 21:45:08.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 has made the advancement [Quite the Renovation]
+[10Mar2024 21:58:40.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Versatil_162> fef
+[10Mar2024 21:59:59.172] [Server thread/ERROR] [sophisticatedbackpacks/]: Error getting backpack wrapper - Unable to find backpack at slot index 1 in "main" inventory handler
+[10Mar2024 22:00:07.636] [Server thread/ERROR] [sophisticatedbackpacks/]: Error getting backpack wrapper - Unable to find backpack at slot index 1 in "main" inventory handler
+[10Mar2024 22:11:21.116] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player K3nned1th is f7a38d4c-6fd6-48c9-9743-58d4eedc7f1a
+[10Mar2024 22:11:24.084] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7b821424
+[10Mar2024 22:11:24.105] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: K3nned1th[/[0:0:0:0:0:0:0:1%0]:46662] logged in with entity id 9627 at (-2860.699999988079, 80.0, -1033.480075422694)
+[10Mar2024 22:11:24.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th joined the game
+[10Mar2024 22:11:24.142] [Server thread/INFO] [Jade/]: Syncing config to K3nned1th (f7a38d4c-6fd6-48c9-9743-58d4eedc7f1a)
+[10Mar2024 22:11:27.812] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3696ms or 73 ticks behind
+[10Mar2024 22:12:06.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Versatil_162> K3nned1th
+[10Mar2024 22:12:09.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <K3nned1th> k fue mano
+[10Mar2024 22:12:10.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Versatil_162> entra a dc ps
+[10Mar2024 22:13:00.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <K3nned1th> ya mano
+[10Mar2024 22:15:22.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 8.454887102085195,-0.243611109654978,5.502004404581498
+[10Mar2024 22:15:22.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.695193457982441,-0.33695812870539044,6.959880218900025
+[10Mar2024 22:15:22.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 12.89267638991214,-0.41929019950785573,8.389888757394601
+[10Mar2024 22:15:22.097] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 8.871397450760924,-0.35026767989252505,5.773047845373071
+[10Mar2024 22:15:22.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 11.211028769841505,-0.468907323895678,7.295559220519408
+[10Mar2024 22:15:22.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 13.609913681504622,-0.6025977119224706,8.856629776715977
+[10Mar2024 22:15:22.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 16.06146942216128,-0.7495983024413562,10.451975791038421
+[10Mar2024 22:19:10.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th has reached the goal [The Power of the Gods]
+[10Mar2024 22:21:19.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: K3nned1th moved too quickly! 12.897665413283903,3.177300829431317,12.91637814327936
+[10Mar2024 22:26:32.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th has made the advancement [Challenger to the Throne]
+[10Mar2024 22:36:52.634] [Worker-Main-1/ERROR] [net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager/]: Couldn't load structure mvs:houses/large_floating_island
+net.minecraft.ReportedException: Loading NBT data
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:466) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:26) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128930_(NbtIo.java:279) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128934_(NbtIo.java:225) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128939_(NbtIo.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230377_(StructureTemplateManager.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230372_(StructureTemplateManager.java:212) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230427_(StructureTemplateManager.java:124) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230425_(StructureTemplateManager.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230407_(StructureTemplateManager.java:92) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230359_(StructureTemplateManager.java:80) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_227299_(SinglePoolElement.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_214015_(SinglePoolElement.java:118) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:89) ~[mvs-4.1-1.19.2-forge.jar%23155!/:?]
+	at com.finndog.mvs.world.structures.GenericJigsawStructure.m_214086_(GenericJigsawStructure.java:207) ~[mvs-4.1-1.19.2-forge.jar%23155!/:?]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_226596_(Structure.java:84) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223104_(ChunkGenerator.java:638) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223066_(ChunkGenerator.java:591) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223164_(ChunkGenerator.java:573) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_223360_(ChunkStatus.java:59) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMap.java:621) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:619) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.util.zip.ZipException: Corrupt GZIP trailer
+	at java.util.zip.GZIPInputStream.readTrailer(GZIPInputStream.java:236) ~[?:?]
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:130) ~[?:?]
+	at net.minecraft.util.FastBufferedInputStream.m_196572_(FastBufferedInputStream.java:94) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.FastBufferedInputStream.read(FastBufferedInputStream.java:47) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.io.DataInputStream.readFully(DataInputStream.java:208) ~[?:?]
+	at java.io.DataInputStream.readInt(DataInputStream.java:385) ~[?:?]
+	at net.minecraft.nbt.IntArrayTag$1.m_7300_(IntArrayTag.java:29) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.IntArrayTag$1.m_7300_(IntArrayTag.java:20) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	... 52 more
+[10Mar2024 22:38:37.795] [Worker-Main-2/ERROR] [net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager/]: Couldn't load structure mvs:houses/deepslate_house
+net.minecraft.ReportedException: Loading NBT data
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:466) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:26) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:30) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128930_(NbtIo.java:279) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128934_(NbtIo.java:225) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.NbtIo.m_128939_(NbtIo.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230377_(StructureTemplateManager.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230372_(StructureTemplateManager.java:212) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230427_(StructureTemplateManager.java:124) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230425_(StructureTemplateManager.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230407_(StructureTemplateManager.java:92) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230359_(StructureTemplateManager.java:80) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_227299_(SinglePoolElement.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_214015_(SinglePoolElement.java:118) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:89) ~[mvs-4.1-1.19.2-forge.jar%23155!/:?]
+	at com.finndog.mvs.world.structures.GenericJigsawStructure.m_214086_(GenericJigsawStructure.java:207) ~[mvs-4.1-1.19.2-forge.jar%23155!/:?]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_226596_(Structure.java:84) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223104_(ChunkGenerator.java:638) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223066_(ChunkGenerator.java:591) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223164_(ChunkGenerator.java:573) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_223360_(ChunkStatus.java:59) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_223279_(ChunkStatus.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$25(ChunkMap.java:621) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-5.0.28.jar%2375!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:619) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) [server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.IOException: Invalid tag id: 14
+	at net.minecraft.nbt.TagType$1.m_197591_(TagType.java:58) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.TagType$1.m_7300_(TagType.java:56) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:460) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+	... 52 more
+[10Mar2024 22:48:19.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 has made the advancement [Make a Tunnel to Nowhere]
+[10Mar2024 22:52:38.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th has made the advancement [To Infinity and Beyond!]
+[10Mar2024 22:54:11.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 has made the advancement [Take That Whole Tree Down!]
+[10Mar2024 22:57:50.189] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 8.625216577005176,0.0,5.522815256198555
+[10Mar2024 22:57:50.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.132354700930136,0.0,6.882924008772534
+[10Mar2024 22:57:50.583] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -12.473353614658208,0.0,-11.891097960073239
+[10Mar2024 22:57:50.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -12.473353614658208,0.0,-11.891097960073239
+[10Mar2024 22:57:50.584] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -11.32546750924439,0.0,-11.135321064350137
+[10Mar2024 22:57:50.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -10.222093117213717,0.0,-10.515391543754959
+[10Mar2024 22:57:50.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -9.156442452743704,0.0,-10.01215770505496
+[10Mar2024 22:58:13.945] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[10Mar2024 22:58:13.946] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[10Mar2024 22:58:22.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 0.7423443178827256,-322.3963779144961,1.4892925283147633
+[10Mar2024 22:58:22.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 1.4875147338020724,-324.10864556289306,2.9774313706639077
+[10Mar2024 22:58:22.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 2.2314247196618453,-325.8299394459146,4.466450468784842
+[10Mar2024 22:58:22.067] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9801ms or 196 ticks behind
+[10Mar2024 22:58:23.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: K3nned1th was kicked for floating a vehicle too long!
+[10Mar2024 22:58:23.490] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: K3nned1th lost connection: Flying is not enabled on this server
+[10Mar2024 22:58:23.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th left the game
+[10Mar2024 22:58:23.575] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[10Mar2024 22:58:28.499] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player K3nned1th is f7a38d4c-6fd6-48c9-9743-58d4eedc7f1a
+[10Mar2024 22:58:31.382] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@64019b7d
+[10Mar2024 22:58:31.408] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: K3nned1th[/[0:0:0:0:0:0:0:1%0]:41732] logged in with entity id 36796 at (2369.6383172447686, 320.0, -3878.39376344218)
+[10Mar2024 22:58:31.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th joined the game
+[10Mar2024 22:58:38.398] [Server thread/INFO] [Jade/]: Syncing config to K3nned1th (f7a38d4c-6fd6-48c9-9743-58d4eedc7f1a)
+[10Mar2024 22:58:38.412] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Versatil_162 moved too quickly! 1.4148347720231413,1.0013359791121417,-10.08611648033741
+[10Mar2024 22:58:39.773] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2707ms or 54 ticks behind
+[10Mar2024 22:58:52.776] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 22:58:57.608] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 22:58:57.647] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 22:59:36.348] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 22:59:36.487] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 22:59:36.624] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 22:59:37.082] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 22:59:37.352] [Worker-Main-2/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 22:59:37.554] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 22:59:54.251] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:00:13.838] [Server thread/ERROR] [sophisticatedbackpacks/]: Error getting backpack wrapper - Unable to find backpack at slot index 1 in "main" inventory handler
+[10Mar2024 23:00:40.843] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:00:49.007] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:00:55.275] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:00:55.769] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[10Mar2024 23:01:00.420] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:01:00.420] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:01:00.420] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:01:00.421] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:01:00.421] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:02:10.460] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-130, y=-41, z=323}
+[10Mar2024 23:02:10.463] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-129, y=-43, z=329}
+[10Mar2024 23:02:10.465] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-126, y=-47, z=329}
+[10Mar2024 23:03:14.328] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=1409, y=63, z=-3181} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=west,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[10Mar2024 23:03:30.580] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.5359819782906925
+[10Mar2024 23:03:30.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 2.1741110214771555
+[10Mar2024 23:03:30.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 3.7588414725017443
+[10Mar2024 23:03:30.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.5497143288489497
+[10Mar2024 23:04:48.735] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-256, y=66, z=-145} BlockPos{x=-255, y=65, z=-145}
+[10Mar2024 23:04:48.795] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-256, y=66, z=-145} BlockPos{x=-255, y=65, z=-145}
+[10Mar2024 23:07:59.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.0796902952335616
+[10Mar2024 23:07:59.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.4753793420882175
+[10Mar2024 23:07:59.794] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 2.3279403787196316
+[10Mar2024 23:07:59.832] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 3.2644020247103316
+[10Mar2024 23:07:59.881] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 4.370899879190987
+[10Mar2024 23:07:59.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 4.918903117803893
+[10Mar2024 23:08:00.139] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.7591539332263437
+[10Mar2024 23:08:00.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.6619339528281216
+[10Mar2024 23:08:00.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 2.556447043994922
+[10Mar2024 23:08:00.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 3.444331233759385
+[10Mar2024 23:08:00.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.3241420331696645
+[10Mar2024 23:08:03.095] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:08:08.862] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:08:32.849] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:08:32.850] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:08:32.851] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:08:32.851] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:08:32.851] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:09:21.185] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:09:37.836] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[10Mar2024 23:09:50.762] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:09:56.025] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:10:05.130] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:10:45.762] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:10:47.572] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[10Mar2024 23:10:47.573] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/short_oak_pathway
+[10Mar2024 23:10:48.849] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:12:19.153] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:12:26.508] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:12:38.850] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:14:02.404] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:14:02.404] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:14:02.404] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:14:02.405] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:14:02.405] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:14:30.424] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:14:40.248] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2061, y=70, z=-1432} BlockPos{x=2063, y=69, z=-1431}
+[10Mar2024 23:23:16.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.729580921065008,1.0,2.5024778137199064
+[10Mar2024 23:23:16.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.777281538017633,1.0,2.527676509113462
+[10Mar2024 23:23:16.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.802805187101058,1.0,2.5411598286107164
+[10Mar2024 23:23:16.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.816462382838836,1.0,2.5483744840453255
+[10Mar2024 23:23:16.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.823770075983248,1.0,2.5522349023237894
+[10Mar2024 23:23:16.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.827680276885076,1.0,2.5522349023237894
+[10Mar2024 23:23:16.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.612807152373534,1.0,2.8253284638396963
+[10Mar2024 23:23:16.469] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.674853686391543,1.0,3.5479511074840957
+[10Mar2024 23:23:16.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.88656628104036,1.0,4.510647610679598
+[10Mar2024 23:23:16.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.182885682970209,1.0,5.600381651582893
+[10Mar2024 23:23:16.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.341440286971192,1.0,6.183476609917534
+[10Mar2024 23:23:16.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.426279694334426,1.0,6.495479096463214
+[10Mar2024 23:23:16.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.471675569699073,1.0,6.662425406355169
+[10Mar2024 23:23:16.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.495965997510666,1.0,6.751755048228006
+[10Mar2024 23:23:16.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.508963321133706,1.0,6.799553558553271
+[10Mar2024 23:23:16.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.515917929865736,1.0,6.825129588428808
+[10Mar2024 23:23:16.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.519639202338112,1.0,6.838814812084138
+[10Mar2024 23:23:16.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.519639202338112,1.0,6.846137502408283
+[10Mar2024 23:23:16.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.301197440215674,1.0,7.120303165922223
+[10Mar2024 23:23:16.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.184313608562661,1.0,7.26700374619486
+[10Mar2024 23:23:16.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.121771400657508,1.0,7.345500301804805
+[10Mar2024 23:23:16.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.088306312164605,1.0,7.387502243659128
+[10Mar2024 23:23:16.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.070399810533672,1.0,7.409976645317101
+[10Mar2024 23:23:16.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.060818398528227,1.0,7.422002249553088
+[10Mar2024 23:23:16.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.428436910615119
+[10Mar2024 23:23:16.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.478] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.055691575996661,1.0,7.431879969456077
+[10Mar2024 23:23:16.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.937428405731225,1.0,7.758634022578008
+[10Mar2024 23:23:16.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 9.764477112939858,1.0,8.263211582537906
+[10Mar2024 23:23:16.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.043818855773225,1.0,9.007964186410618
+[10Mar2024 23:23:16.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 10.58473478955375,1.0,9.86523755664075
+[10Mar2024 23:23:16.486] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 11.272779433605592,0.9231679985046384,10.776507600033256
+[10Mar2024 23:23:16.486] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! 11.818419976604218,0.7725465413369932,11.306529841291876
+[10Mar2024 23:23:16.494] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4927ms or 98 ticks behind
+[10Mar2024 23:23:22.602] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:22.718] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.475] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.475] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.475] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.529] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.611] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.682] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.683] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:23.683] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:23:50.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.5787917919349184
+[10Mar2024 23:23:50.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.343403560054412
+[10Mar2024 23:23:50.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.3313238643959266
+[10Mar2024 23:23:50.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 2.438732114178265
+[10Mar2024 23:23:50.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 3.6714388876341673
+[10Mar2024 23:23:50.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 2.9098274965238033
+[10Mar2024 23:24:13.662] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:24:25.546] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:25:40.769] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:25:48.884] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[10Mar2024 23:26:03.787] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[10Mar2024 23:27:05.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.3853983140586479
+[10Mar2024 23:27:05.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.8171804555920517
+[10Mar2024 23:27:05.990] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.1980123044245374
+[10Mar2024 23:27:06.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.5339059950947558
+[10Mar2024 23:33:23.488] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:33:23.569] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:33:23.667] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:33:24.003] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:33:24.004] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:33:24.316] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[10Mar2024 23:35:19.446] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[10Mar2024 23:35:30.113] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:35:30.113] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:35:30.113] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:35:30.113] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:35:30.113] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:nature/long_oak_pathway
+[10Mar2024 23:36:58.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.4643458875611941
+[10Mar2024 23:36:58.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.49961457967151546
+[10Mar2024 23:36:58.258] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.5464497537618627
+[10Mar2024 23:36:58.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.5678691007126417
+[10Mar2024 23:36:58.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 1.620252136547606
+[10Mar2024 23:36:58.557] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved wrongly! 0.6447186822169897
+[10Mar2024 23:39:54.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -8.17395508580023,0.0,7.405868812163419
+[10Mar2024 23:39:54.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -9.753649041534345,0.0,8.956455872482366
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -11.319813331235082,0.0,10.524088102078508
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -12.874044455494186,0.0,12.106754170977183
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -14.41775052783396,0.0,13.702680086140674
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -15.95217350438088,0.0,15.310301185709761
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -17.47840879043838,0.0,16.92823743792451
+[10Mar2024 23:39:54.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -18.997939705248427,0.0,18.554823482457607
+[10Mar2024 23:39:54.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -13.933685905388643,0.0,14.313514235787693
+[10Mar2024 23:39:54.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -15.444064010533452,0.0,15.952732357275067
+[10Mar2024 23:39:54.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -16.95065880520758,0.0,17.597171943073022
+[10Mar2024 23:39:54.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -18.453916720046323,0.0,19.246216860392906
+[10Mar2024 23:39:54.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -19.954231506870542,0.0,20.899323680115174
+[10Mar2024 23:39:58.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -10.961679054541491,0.0,-1.4209875944513328
+[10Mar2024 23:40:11.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of K3nned1th) moved too quickly! -10.949442917320994,0.0,-0.7877280632565089
+[10Mar2024 23:42:04.837] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: K3nned1th lost connection: Disconnected
+[10Mar2024 23:42:04.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: K3nned1th left the game
+[10Mar2024 23:43:09.594] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Versatil_162 lost connection: Disconnected
+[10Mar2024 23:43:09.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Versatil_162 left the game
+[10Mar2024 23:43:09.608] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.3.8-universal.jar%23176!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	... 4 more
+[10Mar2024 23:43:09.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Mar2024 23:43:09.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Mar2024 23:43:09.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Mar2024 23:43:10.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10Mar2024 23:43:13.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10Mar2024 23:43:13.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10Mar2024 23:43:13.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[10Mar2024 23:43:14.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[10Mar2024 23:43:15.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Mar2024 23:43:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Mar2024 23:43:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Mar2024 23:43:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[10Mar2024 23:43:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[10Mar2024 23:43:15.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
